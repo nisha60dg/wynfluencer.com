@@ -1,0 +1,100 @@
+label{ margin-bottom:5px; display:block;}
+.error {
+    color: #FF9100;
+}
+input[type=range].slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+input[type=range].slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px !important;
+  height: 25px !important;
+  border-radius: 50%; 
+  background: #FF9100;
+  cursor: pointer;
+}
+
+input[type=range].slider::-moz-range-thumb {
+  width: 25px !important;
+  height: 25px !important;
+  border-radius: 50%;
+  background: #FF9100;
+  cursor: pointer;
+}
+/* Style the form */
+.tab{padding: 15px 15px 15px 15px; background-color: #FFFFFF14;}
+.tab p{ margin-bottom:15px;}
+/* Style the input fields */
+input {
+  width: 100%;
+  border-radius: 2px !important;
+  background:#fff !important; 
+	color: #333;
+	display: block;  
+	font-size: 16px;
+	border: 1px solid #ccc !important;
+	padding: 6px 10px;
+	height: 38px;
+	width: 100%;
+}
+input.error {
+    border-color: #FF9100!important;
+    background: #ffeace !important;
+}
+
+/* Hide all steps by default: */
+.tab:not(:first-of-type) {
+  display: none;
+}
+.tab h5{ color:#FF9100; font-size: 20px; font-weight: 600;  margin-bottom: 20px;  padding-bottom: 8px;  border-bottom: 1px solid #FF9100; display:block;}
+
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #FF9100;
+}
+button[type="button"],
+button[type="submit"]{
+	background-color: #FF9100 !important;
+    border: 1px solid #FF9100;
+    color: #fff !important;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 8px 24px;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
